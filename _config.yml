@@ -6,6 +6,7 @@ description: "Write an awesome description for your new site here. You can edit 
 keywords: "your keywords, separated by commas"
 skills: "Bioinformatician"
 meta_author: Erwin Erdem
+company: insilicode
 
 # Google webmaster tools
 google_verify:
@@ -25,38 +26,35 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 938872 #80B3FF
-  primary-rgb: "147,136,114" #"128,179,255"
-  secondary: 4f3f2b #FD6E8A
-  secondary-dark: e6d4b1 #A2122F
+  primary: 6F6F6F #938872 #80B3FF
+  primary-rgb: "111,111,111" #"147,136,114" #"128,179,255"
+  secondary: 212121 #4f3f2b #FD6E8A
+  secondary-dark: 474747 #e6d4b1 #A2122F
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Erwin Erdem
   location: Location
-  social: Around the Web
+  social: Social
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  # - title: twitter
-  #   url: http://twitter.com/jekyllrb
-  # - title: facebook
-  #   url:
-  # - title: stack-overflow
-  #   url: http://stackoverflow.com/questions/tagged/jekyll
-  # - title: bitbucket
-  #   url: http://bitbucket.org/jekyll
+  - title: linkedin
+    url: http://www.linkedin.com/in/erwin-erdem/
   - title: github
     url: http://github.com/erwinerdem
+  - title: envelope
+    url: mailto:erwin.erdem@outlook.com
 
 # Postal address (add as many lines as necessary)
 address:
   - line: Schiedam, The Netherlands
+  - line: KVK 77877373
   # - line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Based on open source Bootstrap theme "Freelance" created by <a href="http://startbootstrap.com">Start Bootstrap</a>.  '
 
 # Build settings
 markdown: kramdown
