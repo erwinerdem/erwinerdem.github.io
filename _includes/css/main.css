@@ -195,19 +195,19 @@ section.success {
     }
 }
 
-#portfolio .portfolio-item {
+#resume .portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#resume .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption {
+#resume .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -218,11 +218,11 @@ section.success {
     transition: all ease .5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#resume .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#resume .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -233,21 +233,21 @@ section.success {
     color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#resume .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#resume .portfolio-item .portfolio-link .caption .caption-content h3,
+#resume .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
 }
 
-#portfolio * {
+#resume * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
-    #portfolio .portfolio-item {
+    #resume .portfolio-item {
         margin: 0 0 30px;
     }
 }
@@ -295,6 +295,24 @@ section.success {
     border: solid 2px #fff;
     color: #{{ site.color.primary }};
     background: #fff;
+}
+
+.btn-dwnld-outline {
+    margin-top: 15px;
+    border: solid 2px black;
+    font-size: 20px;
+    color: black;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-dwnld-outline:hover,
+.btn-dwnld-outline:focus,
+.btn-dwnld-outline:active,
+.btn-dwnld-outline.active {
+    border: solid 2px black;
+    color: white;
+    background: black;
 }
 
 .floating-label-form-group {
@@ -482,3 +500,55 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: black;
+    color: white;
+    
+
+}
+.list-group > .list-group-item {
+    background-image: none;
+    background-color: whitesmoke;
+    color: black;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* box-shadow: inset 0 0 0 0 rgba(0,0,0,0.5);
+    transition: color .5s ease, box-shadow .5s ease; */
+}
+
+.list-group > .list-group-item p2 {
+    background-image: none;
+    background-color: whitesmoke;
+    color: gray;
+    font-family: 'Consolas', monospace;
+
+}
+
+
+
+h3 {
+    text-align: center;
+}
+
+.tex sub, .latex sub, .latex sup {
+    text-transform: uppercase;
+  }
+
+  .tex sub, .latex sub {
+    vertical-align: -0.5ex;
+    margin-left: -0.1667em;
+    margin-right: -0.125em;
+  }
+
+  .tex, .latex, .tex sub, .latex sub {
+    font-size: .85em;
+  }
+
+  .latex sup {
+    font-size: 0.65em;
+    vertical-align: 0.15em;
+    margin-left: -0.36em;
+    margin-right: -0.15em;
+  }
