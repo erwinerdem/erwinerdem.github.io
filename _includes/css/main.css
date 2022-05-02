@@ -211,15 +211,17 @@ section.success {
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
+    border: 5px solid black;
+    opacity: 1;
+    /* background: rgba({{ site.color.primary-rgb }},.9); */
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
 }
 
 #resume .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1;
+    background: rgba({{ site.color.primary-rgb }},.9);
+    /* opacity: 1; */
 }
 
 #resume .portfolio-item .portfolio-link .caption .caption-content {
@@ -230,7 +232,8 @@ section.success {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    /* color: #fff; */
+    color: black;
 }
 
 #resume .portfolio-item .portfolio-link .caption .caption-content i {
@@ -553,11 +556,11 @@ h3 {
     margin-right: -0.15em;
   }
 
-  .bottom-right {
+  .top-left {
     position: absolute;
-    bottom: 8px;
-    right: 16px;
-    /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+    top: -15px;
+    left: -15px;
+    text-align: left;
     font-family: 'Consolas', monospace;
     background-color: black;
     color: white;

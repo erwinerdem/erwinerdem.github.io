@@ -109,6 +109,7 @@
     
             <div class="row">
                 <h3><i class="fa fa-suitcase" aria-hidden="true"></i> Work Experiences</h3>
+                <br>
                 <div class="container portfolio-flex-grid">
                 <div class="portfolio-flex-row">
                     {% for post in site.posts %}
@@ -116,11 +117,17 @@
                             <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
                                     <div class="caption-content">
-                                        <i class="fa fa-search-plus fa-3x"></i>
+                                        <!-- <i class="fa fa-search-plus fa-3x"></i> -->
                                     </div>
                                 </div>
                                 <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                                <div class="bottom-right">{{ post.project-date }}</div>
+                                <!-- <div class="bottom-center">{{ post.project-date }}</div>
+                                <div class="top-center">{{ post.category }}</div> -->
+                                <div class="top-left">
+                                    {{ post.project-date  }}<br>
+                                    {{ post.category }}
+                                </div>
+
                             </a>
                         </div>
                     {% endfor %}
