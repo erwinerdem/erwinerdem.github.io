@@ -552,3 +552,14 @@ h3 {
     margin-left: -0.36em;
     margin-right: -0.15em;
   }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-family: 'Consolas', monospace;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+  }
