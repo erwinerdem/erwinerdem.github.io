@@ -1,154 +1,228 @@
-
-    <!-- Portfolio Grid Section -->
-    <section id="resume">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Resume</h2>
-                    <hr class="star-primary">
-                </div>
+<!-- Portfolio Grid Section -->
+<section id="resume">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Resume</h2>
+                <hr class="star-primary">
             </div>
-    
-            <div class="row">
-    
-                <h3><i class="fa fa-terminal" aria-hidden="true" text-center></i> Programming Skills</h3>
-    
-                <div class="col-lg-6 text-left">
-                    <div class="panel panel-default">
-                        <!-- Default panel contents -->
-                        <div class="panel-heading">
-                            <h4><b>Languages</b></h4>
-                        </div>
-                        <!-- List group -->
-                        <div class="list-group">
-                            <li class="list-group-item">Python
-                                <p2>(pandas, scipy, numpy, scikit-learn, scanpy, tensorflow, pytorch, plotly,
-                                    matplotlib, seaborn, dash)</p2>
-                            </li>
-                            <li class="list-group-item">R
-                                <p2>(tidyverse, ggplot2, DESeq2)</p2>
-                            </li>
-                            <li class="list-group-item"> JavaScript
-                                <p2>(D3, plotly)</p2>
-                            </li>
-                            <li class="list-group-item">Bash</li>
-                            <li class="list-group-item">MATLAB</li>
-                            <li class="list-group-item">Julia</li>
-                            <li class="list-group-item">Java</li>
-                            <li class="list-group-item">Perl</li>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="col-lg-6 text-left">
-                    <div class="panel panel-default">
-                        <!-- Default panel contents -->
-                        <div class="panel-heading">
-                            <h4><b>Development Tools</b></h4>
-                        </div>
-                        <!-- List group -->
-                        <div class="list-group">
-                            <li class="list-group-item">Visual Studio Code</li>
-                            <li class="list-group-item">Project Jupyter</li>
-                            <li class="list-group-item">Git</li>
-                            <li class="list-group-item">Conda</li>
-                            <li class="list-group-item">Snakemake</li>
-                            <li class="list-group-item">Docker</li>
-                            <li class="list-group-item">HTML (CSS, Bootstrap)</li>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-    
-                <h3><i class="fa fa-flask" aria-hidden="true"></i> Laboratory Skills</h3>
-    
-                <div class="col-lg-12 text-left">
-                    <div class="panel panel-default">
-                        <!-- Default panel contents -->
-                        <!-- <div class="panel-heading">
-                            <h4><b>Wetlab</b></h4>
-                        </div> -->
-                        <!-- List group -->
-                        <div class="list-group">
-                            <li class="list-group-item">DNA/RNA Isolation</li>
-                            <li class="list-group-item">Protein Purification</li>
-                            <li class="list-group-item">Electrophoretic Mobility Shift Assay (EMSA)</li>
-                            <li class="list-group-item">Bacterial Cell Culture</li>
-                            <li class="list-group-item">Total Internal Reflection Fluorescence (TIRF) Microscopy</li>
-    
-    
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="row">
-                <h3><i class="fa fa-gears" aria-hidden="true"></i> Miscellaneous Skills</h3>
-    
-                <div class="col-lg-12 text-left">
-                    <div class="panel panel-default">
-                        <!-- Default panel contents -->
-                        <!-- <div class="panel-heading">
-                            <h4><b>Wetlab</b></h4>
-                        </div> -->
-                        <!-- List group -->
-                        <div class="list-group">
-                            <li class="list-group-item">PyMOL</li>
-                            <li class="list-group-item">Fiji / ImageJ</li>
-                            <li class="list-group-item">
-                                <p><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></p>
-                            </li>
-    
-                        </div>
-                    </div>
-                </div>
-            </div>
-         
-    
-            <div class="row">
-                <h3><i class="fa fa-suitcase" aria-hidden="true"></i> Work Experiences</h3>
-                <br>
-                <div class="container portfolio-flex-grid">
-                <div class="portfolio-flex-row">
-                    {% for post in site.posts %}
-                        <div class="portfolio-flex-item portfolio-item">
-                            <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                                <div class="caption">
-                                    <div class="caption-content">
-                                        <!-- <i class="fa fa-search-plus fa-3x"></i> -->
-                                    </div>
-                                </div>
-                                <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                                <!-- <div class="bottom-center">{{ post.project-date }}</div>
-                                <div class="top-center">{{ post.category }}</div> -->
-                                <div class="top-left">
-                                    {{ post.project-date  }}<br>
-                                    {{ post.category }}
-                                </div>
-
-                            </a>
-                        </div>
-                    {% endfor %}
-                </div>
-                </div>
-    
-    
-            </div>
-    
-
-    
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <a href="https://github.com/erwinerdem/..." class="btn btn-lg btn-dwnld-outline">
-                        <i class="fa fa-download"></i> Download CV
-                    </a>
-                </div>
-            </div>
-    
-    
         </div>
 
-        
-    </section>
+        <div class="row">
+
+            <h3><i class="fa fa-terminal" aria-hidden="true" text-center></i> Programming Skills</h3>
+
+            <div class="col-lg-6 text-left">
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">
+                        <h4><b>Languages</b></h4>
+                    </div>
+                    <!-- List group -->
+                    <div class="list-group">
+                        <li class="list-group-item">Python
+                            <p2>(pandas, scipy, numpy, scikit-learn, scanpy, tensorflow, pytorch, plotly,
+                                matplotlib, seaborn, dash)</p2>
+                        </li>
+                        <li class="list-group-item">R
+                            <p2>(tidyverse, ggplot2, DESeq2)</p2>
+                        </li>
+                        <li class="list-group-item"> JavaScript
+                            <p2>(D3, plotly)</p2>
+                        </li>
+                        <li class="list-group-item">Bash</li>
+                        <li class="list-group-item">MATLAB</li>
+                        <li class="list-group-item">Julia</li>
+                        <li class="list-group-item">Java</li>
+                        <li class="list-group-item">Perl</li>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 text-left">
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">
+                        <h4><b>Development Tools</b></h4>
+                    </div>
+                    <!-- List group -->
+                    <div class="list-group">
+                        <li class="list-group-item">Visual Studio Code</li>
+                        <li class="list-group-item">Project Jupyter</li>
+                        <li class="list-group-item">Git</li>
+                        <li class="list-group-item">Conda</li>
+                        <li class="list-group-item">Snakemake</li>
+                        <li class="list-group-item">Docker</li>
+                        <li class="list-group-item">HTML (CSS, Bootstrap)</li>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <h3><i class="fa fa-flask" aria-hidden="true"></i> Laboratory Skills</h3>
+
+            <div class="col-lg-12 text-left">
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <!-- <div class="panel-heading">
+                            <h4><b>Wetlab</b></h4>
+                        </div> -->
+                    <!-- List group -->
+                    <div class="list-group">
+                        <li class="list-group-item">DNA/RNA Isolation</li>
+                        <li class="list-group-item">Protein Purification</li>
+                        <li class="list-group-item">Electrophoretic Mobility Shift Assay (EMSA)</li>
+                        <li class="list-group-item">Bacterial Cell Culture</li>
+                        <li class="list-group-item">Total Internal Reflection Fluorescence (TIRF) Microscopy</li>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <h3><i class="fa fa-gears" aria-hidden="true"></i> Miscellaneous Skills</h3>
+
+            <div class="col-lg-12 text-left">
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <!-- <div class="panel-heading">
+                            <h4><b>Wetlab</b></h4>
+                        </div> -->
+                    <!-- List group -->
+                    <div class="list-group">
+                        <li class="list-group-item">PyMOL</li>
+                        <li class="list-group-item">Fiji / ImageJ</li>
+                        <li class="list-group-item">
+                            <p><span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></p>
+                        </li>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <h3><i class="fa fa-suitcase" aria-hidden="true"></i> Work Experiences</h3>
+            <br>
+            <div class="container portfolio-flex-grid">
+                <div class="portfolio-flex-row">
+                    {% for post in site.posts %}
+                    {% if post.path contains 'work' %}
+                    <div class="portfolio-flex-item portfolio-item">
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <!-- <i class="fa fa-search-plus fa-3x"></i> -->
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            <!-- <div class="bottom-center">{{ post.project-date }}</div>
+                                <div class="top-center">{{ post.category }}</div> -->
+                            <div class="top-left">
+                                {{ post.project-date }}<br>
+                                {{ post.category }}
+                            </div>
+
+                        </a>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+            <h3><i class="fa fa-university" aria-hidden="true"></i> Internships & Theses</h3>
+            <br>
+            <div class="container portfolio-flex-grid">
+                <div class="portfolio-flex-row">
+                    {% for post in site.posts %}
+                    {% if post.path contains 'internship_thesis' %}
+                    <div class="portfolio-flex-item portfolio-item">
+                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <!-- <i class="fa fa-search-plus fa-3x"></i> -->
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            <!-- <div class="bottom-center">{{ post.project-date }}</div>
+                                <div class="top-center">{{ post.category }}</div> -->
+                            <div class="top-left">
+                                {{ post.project-date }}<br>
+                                {{ post.category }}
+                            </div>
+
+                        </a>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="row">
+            <h3><i class="fa fa-graduation-cap" aria-hidden="true"></i> Education</h3>
+
+            <div class="col-lg-12 text-left">
+                <div class="panel panel-default">
+                    <div class="list-group">
+                        <li class="list-group-item">
+                            <div class="top-left">2018 - 2021</div> MSc Nanobiology (
+                            <a
+                                href="https://www.tudelft.nl/en/education/programmes/masters/nanobiology/msc-nanobiology">TU
+                                Delft</a>
+                            and
+                            <a href="https://www.eur.nl/en/master/nanobiology">Erasmus MC</a>
+                            )
+                        </li><br>
+                        <li class="list-group-item">
+                            <div class="top-left">2014 - 2018</div> BSc Nanobiology (
+                            <a href="https://www.tudelft.nl/en/education/programmes/bachelors/nb/bsc-nanobiology">TU
+                                Delft</a>
+                            and
+                            <a href="https://www.eur.nl/en/bachelor/nanobiology">Erasmus MC</a>
+                            )
+                        </li>
+                        <li class="list-group-item">Minor Computational Approaches to Disease, Signaling and Drug
+                            Targets (
+                            <a
+                                href="https://studiegids.universiteitleiden.nl/en/studies/5415/computational-approaches-to-disease-signaling-and-drug-targets">Leiden
+                                University</a>
+                            )
+                        </li>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="https://github.com/erwinerdem/Erwin_Erdem_resume.pdf" class="btn btn-lg btn-dwnld-outline">
+                    <i class="fa fa-download"></i> Download CV
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</section>

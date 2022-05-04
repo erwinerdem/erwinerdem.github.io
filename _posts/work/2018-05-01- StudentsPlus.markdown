@@ -7,5 +7,7 @@ alt: image-alt
 project-date: May 2018 - Jan 2019
 client: StudentPlus
 category: Tutor
-description: Aided high school students with chemistry, physics, mathematics and biology
+description: 
 ---
+
+Aided high school students with chemistry, physics, mathematics and biology
