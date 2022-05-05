@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 7
-date: 2017-02-01
+date: 2020-05-01
 img: logo_emc.png
 alt: image-alt
 project-date: May 2020 - Jul 2021
