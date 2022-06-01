@@ -10,4 +10,4 @@ category: Tutor
 description: 
 ---
 
-Aided high school students with chemistry, physics, mathematics and biology
+Aided high school students with chemistry, physics, mathematics and biology.

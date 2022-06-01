@@ -10,4 +10,4 @@ category: API Tester
 description: 
 ---
 
-Created test cases for archiving research data onto a server using curl and Git for version control. API improvement through regular communication with the developers
+Created test cases for archiving research data onto a server using curl and Git for version control. API improvement through regular communication with the developers using GitHub.

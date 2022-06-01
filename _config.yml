@@ -49,6 +49,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
+  - line: insilicode
   - line: Schiedam, The Netherlands
   - line: KVK 77877373
   # - line: Beverly Hills, CA 90210
